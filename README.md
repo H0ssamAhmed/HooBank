@@ -6,7 +6,7 @@ Welcome to HooBank the future of banking
 ## Live Demo
 Explore the live demo: [HooBank](https://h0ssamahmed.github.io/HooBank/)
 
-### ** You are in `main` branch change it to `gh-pages` branch to see all project**
+###  You are in `main` branch change it to `gh-pages` branch to see all project
 
 ## Technologies Used
 
