@@ -1,0 +1,26 @@
+.bg-discount-gradient {
+    background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.discount {
+    width: fit-content;
+    padding: 0 1rem;
+}
+
+.discount img {
+    width: 32px;
+}
+
+.header {
+    padding-right: 0 !important;
+    height: auto;
+}
+
+.get-started {
+    cursor: pointer;
+    transition: var(--transition);
+    border: #33bbcf solid 3px;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 1.5rem;
+}

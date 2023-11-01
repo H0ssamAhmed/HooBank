@@ -1,0 +1,35 @@
+footer .paragraph p {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media a {
+    background: var(--black-gradient);
+    padding: 0.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: stretch;
+    transition: calc(var(--transition) + 0.5s);
+}
+
+.social-media a:nth-child(1):hover {
+    transition: var(--transition);
+    background: radial-gradient(var(--main-color), 50%, #1877f2);
+}
+
+.social-media .icon:nth-child(2):hover {
+    transition: var(--transition);
+    background: radial-gradient(var(--main-color), 50%, #f44336)
+}
+
+.social-media .icon:nth-child(3):hover {
+    transition: var(--transition);
+    background: radial-gradient(var(--main-color), 50%, #1da1f2);
+}
+
+.social-media .icon:nth-child(4):hover {
+    transition: var(--transition);
+    background: radial-gradient(var(--main-color), 50%, #0e76a8);
+}

@@ -1,0 +1,56 @@
+.mainBtn {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 15px;
+    transition: var(--transition);
+    background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+}
+
+.mainBtn:hover {
+    background: linear-gradient(calc(360deg - 157.81deg), #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+}
+
+.tiles,
+.Team-word {
+    transition: var(--transition);
+    border-radius: 10px;
+    background: transparent;
+}
+
+.tiles:hover,
+.Team-word:hover {
+    background: var(--black-gradient);
+}
+
+.line-h-30 {
+    line-height: 30px;
+}
+
+.qoute-img {
+    width: 40px !important;
+}
+
+.Team-word:nth-child(1) {
+    animation-delay: 200ms;
+}
+
+.Team-word:nth-child(2) {
+    animation-delay: 400ms;
+}
+
+.Team-word:nth-child(3) {
+    animation-delay: 600ms;
+}
+
+ul li {
+    transition: var(--transition);
+    list-style: none;
+}
+
+ul li:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}

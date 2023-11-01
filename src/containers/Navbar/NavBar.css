@@ -1,0 +1,45 @@
+@media (min-width:991px) {
+    nav {
+        height: 72px;
+    }
+}
+
+nav {
+    transition: 1s;
+}
+
+.toggler {
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar-nav a {
+    padding: 0.5rem;
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    transition: var(--transition);
+}
+
+.navbar-nav a::before {
+    content: '';
+    background-image: linear-gradient(90deg, #00bcd4, var(--main-color));
+    width: 0%;
+    height: 100%;
+    transition: var(--transition);
+    top: 0;
+    border-radius: 12px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar-nav a:hover::before {
+    width: 100%;
+}
