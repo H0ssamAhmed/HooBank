@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import discount from '../../assets/Discount.svg'
 import arrow from '../../assets/arrow-up.svg'
-import robot from '../../assets/raobot.png'
+import robot from '../../assets/robot.png'
 import './header.css'
 import { ImgHoder, Nums, Paragraph } from '../../components'
 // text-gradient text-white
@@ -42,9 +42,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='col-12 col-lg-6'>
-                        {/* <ImgHoder imgSrc={robot} /> */}
                         <ImgHoder imgSrc={robot} />
-
                     </div>
                 </div>
                 <div className='row text-white justify-content-center hidden-right p-4'>
