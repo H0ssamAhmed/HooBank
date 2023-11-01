@@ -1,7 +1,0 @@
-export { default as NavBar } from './Navbar/NavBar'
-export { default as Header } from './header/Header'
-export { Feature } from './feature/Feature'
-export { default as Prouduct } from './product/Prouduct'
-export { default as Clients } from './Clients/Clients'
-export { default as CTA } from './cta/CTA'
-export { default as Footer } from './footer/Footer'
